@@ -1457,32 +1457,29 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 **Rating:** Mature
 
-Haskell provides two tools for automatic code formatting:
+Haskell provides several tools for automatic code formatting:
 
 * `stylish-haskell` - Less opinionated code formatting tool that mostly
   formats imports, language extensions, and data type definitions
 * `hindent` - Strict formatting tool that formats everything in the file in a
   canonical form (analogous to `gofmt`)
+* [`brittany`](https://github.com/lspitzner/brittany) - Configurable code formatter
+  that (optionally) tries to be clever about use of horizontal space.
+* [`ormolu`](https://github.com/tweag/ormolu) - Zero config formatter that respects
+  newlines and tries to minimize diffs.
 
 <br>
 
 ## Education
 
-**Rating:** Immature
-
-This rating will switch to "Mature" once the "Haskell Programming from first
-principles" book is published.  I highly recommend this book, even though it is
-still in Early Access form, for the following reasons:
-
-* The book does not assume any prior programming experience
-* The book does not have any conceptual gaps or out-of-order dependencies
-* The book is extremely comprehensive
+**Rating:** Mature
 
 **Educational resources:**
 
 * [Haskell Programming from first principles](http://haskellbook.com/) - The
   best Haskell resource to learn from. The book costs $60, but it's worth the
-  price.
+  price. It doesn't assume prior programming experience. It doesn't leave
+  conceptual gaps. However, this means that the book is quite big (1000+ pages).
 * [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell) — One of the highest
   quality among Wikimedia's Wikibooks, which starts from zero, with no
   assumption of previous programming experience
@@ -1499,6 +1496,8 @@ still in Early Access form, for the following reasons:
 * [Thinking Functionally with Haskell](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/thinking-functionally-haskell) —
   Book targeting people who are interested in Haskell in order to "think
   differently"
+* [Finding Success (and Failure) in Haskell](https://joyofhaskell.com/) - Discusses
+  patterns for error handling and related data types and type classes.
 * [Haskell wiki](https://wiki.haskell.org/Haskell) — Grab bag of Haskell-related
   information with wide variation in quality.  Excels at large lists of
   resources or libraries if you don't mind sifting through stale or abandoned
@@ -1537,6 +1536,7 @@ store you use.
 * [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
 * [`groundhog`](https://hackage.haskell.org/package/groundhog) - A nice datatype to relational mapping library, similar to ORMs
 * [`hasql`](https://hackage.haskell.org/package/hasql) - An efficient PostgreSQL driver and a flexible mapping API based on the binary protocol
+* [`beam`](https://github.com/tathougies/beam) - A type-safe, Haskell SQL library and ORM, that doesn't use Template Haskell.
 
 <br>
 
